@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Forward Serif';
+  src: local('Forward Serif'), url('./fonts/ForwardSerif.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Forward Serif Bold';
+  src: local('Forward Serif Bold'), url('./fonts/ForwardSerifBold.otf') format('opentype');
+  font-display: swap;
+}
+
+:root {
+  --text-dark: #0f0f0f;
+  --text-mid: #676666;
+  --text-light: #dedede;
+  --white: #fff;
+  --cream: #fffdf8;
+  --light-gray: #f3f3f3;
+  --pale-blue: #ddf3f3;
+  --blue: #9fb3c6;
+  --pale-green: #d0edc4;
+  --gold: #d59500;
+  --pale-pink: #ffe8f5;
+  --lavender: #e5bdea;
+  --link: #794b80;
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --header-font: 'Forward Serif', 'Instrument Serif', serif;
+  --header-font-bold: 'Forward Serif Bold', 'Instrument Serif', serif;
+  --body-font: 'Instrument Serif', serif;
+  --sans-font: system-ui, Roboto, sans-serif;
+  --mono-font: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--body-font);
+  /* letter-spacing: 0.18px; */
+  /* color-scheme: light dark; */
+  color: var(--text-mid);
+  background: var(--white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-dark: #ffffff;
+    --text-mid: #e0e0e0;
+    --text-light: #aaaaaa;
+    --white: #000000;
+    --cream: #151515;
+    --light-gray: #606060;
+    --pale-blue: #4c5581;
+    --pale-green: #485f3e;
+    --pale-pink: #5b073680;
+    --lavender: #60036c50;
+    --link: #aec5f2;
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  /* width: 1126px; */
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 10px 5px 5px 5px;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font-bold);
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 56px;
+  /* letter-spacing: -1.68px; */
+  margin: 32px 0;
+
+  @media (max-width: 1000px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  /* letter-spacing: -0.24px; */
+  margin: 0 0 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin: 0;
+  color: var(--text-mid);
+}
+
+@media screen and (width <=600px) {
+  #root {
+    padding: 5px;
+  }
+}
