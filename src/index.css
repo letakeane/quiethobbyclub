@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Forward Serif';
-  src: local('Forward Serif'), url('./fonts/ForwardSerif.otf');
+  src: local('Forward Serif'), url('./assets/fonts/ForwardSerif.otf');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Forward Serif Bold';
-  src: local('Forward Serif Bold'), url('./fonts/ForwardSerifBold.otf');
+  src: local('Forward Serif Bold'), url('./assets/fonts/ForwardSerifBold.otf');
   font-display: swap;
 }
 
