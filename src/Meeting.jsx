@@ -1,6 +1,6 @@
 import './Meeting.css';
 
-function Meeting({
+const Meeting = ({
   date,
   location,
   address,
@@ -9,7 +9,7 @@ function Meeting({
   description,
   parking,
   otherNotes,
-}) {
+}) => {
   return (
     <div className="meeting">
       <h3>{date} @ {time}</h3>

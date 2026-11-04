@@ -2,6 +2,7 @@ import quiet from './assets/QUIET.webp';
 import Nav from './Nav.jsx';
 import Meeting from './Meeting.jsx';
 import About from './About.jsx';
+import Footer from './Footer.jsx';
 import './App.css';
 
 const meetings = [
@@ -58,12 +59,12 @@ const meetings = [
   },
 ];
 
-function App() {
+const App = () => {
   return (
     <>
       <img src={quiet} alt="Quiet Hobby Club logo" style={{ maxWidth: '250px' }} />
       <h1 hidden>Quiet Hobby Club</h1>
-      <Nav />
+      <Nav direction="row" />
       <div style={{ marginTop: '10px', maxWidth: '80%' }}>
         <h2 id="meetings">
           <span aria-hidden="true">&#10022;</span>{' '}
@@ -83,6 +84,7 @@ function App() {
           <span aria-hidden="true">&#10022;</span>
         </h2>
         <About />
+        <Footer />
       </div>
     </>
   )

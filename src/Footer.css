@@ -1,0 +1,48 @@
+.footer {
+  max-width: 100%;
+}
+
+.footer .decor {
+  margin: 20px 0;
+}
+
+.footer section {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+}
+
+.footer section div {
+  text-align: right;
+}
+
+.footer section div .welcome {
+  font-family: 'Forward Serif', serif;
+  font-size: .7em;
+  line-height: 2;
+}
+
+.footer section p,
+.copyright {
+  font-family: 'Instrument Serif', serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.copyright {
+  color: var(--lavender);
+  font-size: .8em;
+  margin-top: 5px;
+}
+
+@media screen and (width <=600px) {
+  .footer section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer section div {
+    text-align: center;
+  }
+}

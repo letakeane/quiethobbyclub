@@ -48,24 +48,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-dark: #ffffff;
-    --text-mid: #e0e0e0;
-    --text-light: #aaaaaa;
-    --white: #000000;
-    --cream: #151515;
-    --light-gray: #606060;
-    --pale-blue: #4c5581;
-    --pale-green: #485f3e;
-    --pale-pink: #5b073680;
-    --lavender: #60036c50;
-    --link: #aec5f2;
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-}
-
 body {
   margin: 0;
 }
@@ -101,7 +83,7 @@ h6 {
 
 h1 {
   font-size: 56px;
-  /* letter-spacing: -1.68px; */
+  
   margin: 32px 0;
 
   @media (max-width: 1000px) {
@@ -113,7 +95,7 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 118%;
-  /* letter-spacing: -0.24px; */
+  letter-spacing: 1.4px;
   margin: 0 0 8px;
 
   @media (max-width: 1024px) {

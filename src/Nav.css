@@ -1,11 +1,23 @@
 .nav {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
+}
+
+.row {
+  flex-direction: row!important;
+  gap: 15px!important;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column!important;
+  gap: 0!important;
+  align-items: flex-start;
 }
 
 .nav a {
   font-size: 1.2em;
+  margin: 0;
+  min-width: 50px;
 }
 
 @media screen and (width <=600px) {
@@ -16,5 +28,9 @@
 
   .nav a {
     margin: 0;
+  }
+
+  .column {
+    align-items: center;
   }
 }

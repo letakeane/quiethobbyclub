@@ -1,6 +1,6 @@
 import './About.css';
 
-function About() {
+const About = () => {
   return (
     <section className="about">
       <h2>the Quiet Hobby Club</h2>
