@@ -37,6 +37,16 @@ const meetings = [
     parking: 'Limited free street parking, paid lots, or nearby free RTD parking garage',
     otherNotes: 'Method & Muse offers N/A drink options, cocktails, and snacks in a cozy atmosphere with plenty of seating.',
   },
+  
+    date: 'Wednesday 18 November 2026',
+    location: 'Convivio Cafe',
+    address: '4935 W 38th Ave, Denver, CO 80212',
+    mapLink: 'https://www.mapquest.com/us/colorado/convivio-cafe-432067924',
+    time: '7am - 9am',
+    description: 'Wake up early and join us for some quiet focus time at Convivio! Drop in when you want :)',
+    parking: 'Limited free street parking',
+    otherNotes: 'Convivio Cafe is a bilingual coffee shop offering Guatemalan flavors! Lots of seating and a great outdoor patio.',
+  },
   {
     date: 'Sunday 22 November 2026',
     location: 'Method & Muse',
