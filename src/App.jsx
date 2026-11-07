@@ -18,16 +18,6 @@ const meetings = [
   //   otherNotes: '', // optional
   // },
   {
-    date: 'Sunday 8 November 2026',
-    location: 'Method & Muse',
-    address: '7513 Grandview Ave, Arvada, CO 80002',
-    mapLink: 'https://www.mapquest.com/us/colorado/method-muse-spirits-790522095',
-    time: '3pm - 5pm',
-    description: 'Enjoy an afternoon of focus and quiet company in Olde Town Arvada!',
-    parking: 'Limited free street parking, paid lots, or nearby free RTD parking garage',
-    otherNotes: 'Method & Muse offers N/A drink options, cocktails, and snacks in a cozy atmosphere with plenty of seating.',
-  },
-  {
     date: 'Thursday 12 November 2026',
     location: 'Confluence Coffee',
     address: '1205 Cheyenne St, Golden, CO 80401',
