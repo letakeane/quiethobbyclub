@@ -34,7 +34,7 @@ p {
 }
 
 .meeting span {
-  color: var(--link);
+  color: var(--blue);
 }
 
 a:hover {

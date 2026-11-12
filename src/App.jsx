@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import Banner from './Banner.jsx';
 import quiet from './assets/QUIET.webp';
 import Nav from './Nav.jsx';
 import Meeting from './Meeting.jsx';
@@ -7,9 +9,13 @@ import meetings from './meetings.js';
 import './App.css';
 
 const App = () => {
+  const banner = false;
+  const message = "Looking for some peace and quiet?"
+
   return (
     <>
-      <img src={quiet} alt="Quiet Hobby Club logo" style={{ maxWidth: '250px' }} />
+      {banner && <Banner message={message} />}
+      <img className={banner ? 'bump' : ''} src={quiet} alt="Quiet Hobby Club logo" style={{ maxWidth: '250px' }} />
       <h1 hidden>Quiet Hobby Club</h1>
       <Nav direction="row" />
       <div style={{ marginTop: '10px', maxWidth: '80%' }}>
