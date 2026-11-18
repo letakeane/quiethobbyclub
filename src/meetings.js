@@ -11,26 +11,6 @@ const meetings = [
   //   otherNotes: '', // optional
   // },
   {
-    date: 'Sunday 15 November 2026',
-    location: 'Method & Muse',
-    address: '7513 Grandview Ave, Arvada, CO 80002',
-    mapLink: 'https://www.mapquest.com/us/colorado/method-muse-spirits-790522095',
-    time: '3pm - 5pm',
-    description: 'Enjoy an afternoon of focus and quiet company in Olde Town Arvada!',
-    parking: 'Limited free street parking, paid lots, or nearby free RTD parking garage',
-    otherNotes: 'Method & Muse offers N/A drink options, cocktails, and snacks in a cozy atmosphere with plenty of seating.',
-  },
-  {
-    date: 'Wednesday 18 November 2026',
-    location: 'Convivio Cafe',
-    address: '4935 W 38th Ave, Denver, CO 80212',
-    mapLink: 'https://www.mapquest.com/us/colorado/convivio-cafe-432067924',
-    time: '7am - 9am',
-    description: 'Wake up early and join us for some quiet focus time at Convivio! Drop in when you want :)',
-    parking: 'Limited free street parking',
-    otherNotes: 'Convivio Cafe is a bilingual coffee shop offering Guatemalan flavors! Lots of seating and a great outdoor patio.',
-  },
-  {
     date: 'Sunday 22 November 2026',
     location: 'Method & Muse',
     address: '7513 Grandview Ave, Arvada, CO 80002',
@@ -39,6 +19,16 @@ const meetings = [
     description: 'Enjoy an afternoon of focus and quiet company in Olde Town Arvada!',
     parking: 'Limited free street parking, paid lots, or nearby free RTD parking garage',
     otherNotes: 'Method & Muse offers N/A drink options, cocktails, and snacks in a cozy atmosphere with plenty of seating.',
+  },
+  {
+    date: 'Tuesday 24 November 2026',
+    location: 'Convivio Cafe',
+    address: '4935 W 38th Ave, Denver, CO 80212',
+    mapLink: 'https://www.mapquest.com/us/colorado/convivio-cafe-432067924',
+    time: '7am - 9am',
+    description: 'Wake up early and join us for some quiet focus time at Convivio! Drop in when you want :)',
+    parking: 'Limited free street parking',
+    otherNotes: 'Convivio Cafe is a bilingual coffee shop offering Guatemalan flavors! Lots of seating and a great outdoor patio.',
   },
 ];
 
@@ -62,6 +52,26 @@ const archived = [
     description: 'For the early birds, join us at the outrageously cozy Confluence Coffee for breakfast and companionable focus time.',
     parking: 'Free street parking nearby',
     otherNotes: 'Confluence has a great selection of coffee and tea, as well as tasty breakfast snacks. They have a cozy garage seating area.',
+  },
+  {
+    date: 'Sunday 15 November 2026',
+    location: 'Method & Muse',
+    address: '7513 Grandview Ave, Arvada, CO 80002',
+    mapLink: 'https://www.mapquest.com/us/colorado/method-muse-spirits-790522095',
+    time: '3pm - 5pm',
+    description: 'Enjoy an afternoon of focus and quiet company in Olde Town Arvada!',
+    parking: 'Limited free street parking, paid lots, or nearby free RTD parking garage',
+    otherNotes: 'Method & Muse offers N/A drink options, cocktails, and snacks in a cozy atmosphere with plenty of seating.',
+  },
+  {
+    date: 'Wednesday 18 November 2026',
+    location: 'Convivio Cafe',
+    address: '4935 W 38th Ave, Denver, CO 80212',
+    mapLink: 'https://www.mapquest.com/us/colorado/convivio-cafe-432067924',
+    time: '7am - 9am',
+    description: 'Wake up early and join us for some quiet focus time at Convivio! Drop in when you want :)',
+    parking: 'Limited free street parking',
+    otherNotes: 'Convivio Cafe is a bilingual coffee shop offering Guatemalan flavors! Lots of seating and a great outdoor patio.',
   },
 ];
 
